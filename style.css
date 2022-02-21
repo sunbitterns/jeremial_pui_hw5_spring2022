@@ -4,6 +4,7 @@
 }
 
 body {
+    
     font-family: "Open Sans", sans-serif;
 }
 
@@ -64,6 +65,7 @@ nav a {
     align-items: center;
 }
 
+/* HOME PAGE */
 
 /* Header */
 
@@ -80,14 +82,14 @@ header h1 {
 
 header a {
     color: #fffffa;
-    font-size: 20px;
+    font-size: 18px;
     text-decoration: none;
     background: #C51230;
     border-radius: 90px;
     padding: 12px 48px;
     display: block;
     width: 300px;
-    margin: 18px;
+    margin: 28px;
     transition: 300ms;
     text-align: center;
 }
@@ -114,11 +116,13 @@ header .hero-image img:hover {
 }
 
 
+/* APPT PAGE*/
+
 /* Sidebar */
 
 .sidebar {
     background: #F1F1F1;
-    position: fixed;
+    position: absolute;
     width: 260px;
     height: 100%;
     
@@ -165,3 +169,45 @@ header .hero-image img:hover {
 .sidebar ul li a.active .icon {
     color: white;
 }
+
+/* Appointment Detail */
+
+.appt-container {
+    position: relative;
+    margin-top: 148px;
+    margin-left: 300px;
+}
+
+.appt-container h1 {
+    color:black;
+    font-size: 42px;
+    line-height: 50px;
+}
+
+.appt-container h2 {
+    color:#C51230;
+    font-size: 38px;
+    line-height: 50px;
+}
+
+.appt-container .fa-syringe {
+    color:#C51230;
+}
+
+.appt-container h3 {
+    color:#C51230;
+    font-size: 30px;
+    line-height: 70px;
+
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.appt-body {
+    column-count: 2;
+    column-width: 300px;
+    column-gap: 40px;
+    margin: 20px;
+    font-size: 22px;
+}
+
