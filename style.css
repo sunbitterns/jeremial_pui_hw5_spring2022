@@ -212,12 +212,6 @@ header .hero-image img:hover {
     color:#C51230;
 }
 
-.appt-container h3 {
-    font-size: 24px;
-    font-style: bold;
-    margin-bottom: 32px;
-}
-
 .appt-container p {
     margin-bottom: 32px;
 }
@@ -263,6 +257,31 @@ button a {
     background-color:#E73F5B;
     color: white;
 }
+
+#times {
+    font-family: 'Open Sans';
+    font-size: 14px;
+    font-style:normal;
+    border-collapse:collapse;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#times td {
+    border: 1px solid;
+    padding: 10px ;
+}
+
+#times th {
+    border: 1px solid;
+    padding: 10px;
+    text-align: left;
+    background-color: #D4D4D4;
+    color: black;
+}
+
+
 
 
 
