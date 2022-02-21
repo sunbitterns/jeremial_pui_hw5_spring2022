@@ -190,7 +190,7 @@ header .hero-image img:hover {
     margin-bottom: 64px;
 }
 
-.appt-container a {
+.appt-container h2 a {
     color:black;
     border-bottom: 1px solid #C51230;
     text-decoration: none;
@@ -209,6 +209,38 @@ header .hero-image img:hover {
 
 .appt-container p {
     margin-bottom: 32px;
+}
+
+.flex {
+    display: flex; 
+    flex-direction: row;
+    gap: 180px;
+}
+
+button {   
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 6px;
+    padding: 8px 20px;
+    display: inline-block;
+    text-align: center;
+    border: none;
+    margin-right: 10px;
+}
+
+button a {
+    color:white;
+    text-decoration: none;
+}
+
+.button1 {
+    background-color: #606060;
+    color: white;
+}
+
+.button2 {
+    background-color:#C51230;
+    color: white;
 }
 
 
