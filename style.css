@@ -38,8 +38,11 @@ nav .logo {
     font-style: bold;
     font-weight: 800;
     font-size: 24px;
-    color: #ffffff;
     margin: 32px;
+}
+
+nav a {
+    color: white;
     text-decoration: none;
 }
 
@@ -108,4 +111,57 @@ header .hero-image img {
 
 header .hero-image img:hover {
     transform: rotate(-6deg);
+}
+
+
+/* Sidebar */
+
+.sidebar {
+    background: #F1F1F1;
+    position: fixed;
+    width: 260px;
+    height: 100%;
+    
+}
+
+.sidebar ul {
+    list-style: none;
+    margin-top: 28px;
+    
+}
+
+.sidebar ul li a {
+    display: block;
+    color: black;
+    font-size: 18px;
+    position: relative;
+    text-decoration: none;
+    font-weight: bold;
+
+    border-radius: 10px;
+    padding: 10px;
+    width: 188px;
+    margin-bottom: 10px;
+}
+
+.sidebar ul li a .icon {
+    color: black;
+    width: 26px;
+    display: inline-block;
+}
+
+.sidebar ul li a:hover {
+    color: #C51230
+}
+.sidebar ul li a.active {
+    color: white;
+    background: #C51230;
+}
+
+.sidebar ul li a:hover .icon {
+    color: #C51230
+}
+
+.sidebar ul li a.active .icon {
+    color: white;
 }
