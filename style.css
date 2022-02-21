@@ -172,9 +172,20 @@ header .hero-image img:hover {
 
 /* Appointment Detail */
 
+.block {
+    display: block;
+    margin: 44px 50px 0px 300px;
+    width: 75%;
+    background-color: #8A8A8A;
+    color:white;
+    text-align: left;
+    font-size: 16px;
+    padding: 18px;
+}
+
 .appt-container {
     position: relative;
-    margin-top: 140px;
+    margin-top: 64px;
     margin-left: 350px;
     font-size: 16px;
 }
@@ -243,6 +254,15 @@ button a {
     color: white;
 }
 
+.button1:hover {
+    background-color: #858585;
+    color: white;
+}
+
+.button2:hover {
+    background-color:#E73F5B;
+    color: white;
+}
 
 
 
