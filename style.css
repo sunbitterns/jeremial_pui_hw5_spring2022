@@ -12,8 +12,8 @@ body {
 /* Navigation */
 
 .nav-container {
-    background: #C51230;
-    height: 64px;
+    background: #BB0000;
+    height: 38px;
     position: relative;
 }
 
@@ -26,7 +26,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 64px;
+    height: 32px;
 }
 
 nav ul {
@@ -38,7 +38,7 @@ nav .logo {
     font-family: Bodoni;
     font-style: bold;
     font-weight: 800;
-    font-size: 24px;
+    font-size: 20px;
     margin: 32px;
 }
 
@@ -49,12 +49,12 @@ nav a {
 
 .nav-items li {
     list-style: none;
-    margin-right: 10px;
+    margin-right: 12px;
 }
 
 .nav-items li a {
-    color: #ffffff;
-    font-size: 16px;
+    color: white;
+    font-size: 12px;
     text-decoration: none;
 }
 
@@ -81,10 +81,10 @@ header h1 {
 }
 
 header a {
-    color: #fffffa;
+    color: white;
     font-size: 18px;
     text-decoration: none;
-    background: #C51230;
+    background: #BB0000;
     border-radius: 90px;
     padding: 12px 48px;
     display: block;
@@ -137,7 +137,7 @@ header .hero-image img:hover {
 .sidebar ul li a {
     display: block;
     color: black;
-    font-size: 18px;
+    font-size: 16px;
     position: relative;
     text-decoration: none;
     font-weight: bold;
@@ -145,7 +145,7 @@ header .hero-image img:hover {
     border-radius: 10px;
     padding: 10px;
     width: 188px;
-    margin-bottom: 10px;
+    margin-bottom: 6px;
 }
 
 .sidebar ul li a .icon {
@@ -155,15 +155,15 @@ header .hero-image img:hover {
 }
 
 .sidebar ul li a:hover {
-    color: #C51230
+    color: #BB0000
 }
 .sidebar ul li a.active {
     color: white;
-    background: #C51230;
+    background: #BB0000;
 }
 
 .sidebar ul li a:hover .icon {
-    color: #C51230
+    color: #BB0000
 }
 
 .sidebar ul li a.active .icon {
@@ -203,13 +203,13 @@ header .hero-image img:hover {
 
 .appt-container h2 a {
     color:black;
-    border-bottom: 1px solid #C51230;
+    border-bottom: 1px solid #BB0000;
     text-decoration: none;
 }
 
 .appt-container i {
     margin-left: 10px;
-    color:#C51230;
+    color:#BB0000;
 }
 
 .appt-container p {
@@ -244,7 +244,7 @@ button a {
 }
 
 .button2 {
-    background-color:#C51230;
+    background-color:#BB0000;
     color: white;
 }
 
@@ -258,12 +258,14 @@ button a {
     color: white;
 }
 
+/* CALENDAR */
+
 #times {
     font-family: 'Open Sans';
     font-size: 14px;
     font-style:normal;
     border-collapse:collapse;
-    width: 100%;
+    width: 90%;
     margin-top: 50px;
     margin-bottom: 50px;
 }
@@ -279,6 +281,12 @@ button a {
     text-align: left;
     background-color: #D4D4D4;
     color: black;
+}
+
+.select {
+    background-color:#BB0000;
+    font-weight: bold;
+    color: white;
 }
 
 

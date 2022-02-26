@@ -9,7 +9,6 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/ee365708f3.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/timepicker/1.3.5/jquery.timepicker.min.css"> 
 </head>
 
 <body>
@@ -61,7 +60,7 @@
     </div>
 
     <div class="appt-container">
-        <!-- change to code later -->
+        <!-- to-do: change stepper to code -->
         <img src="images/Stepper-1.png" alt="2. Schedule Appointment""></img>
         <br></br><br></br>
 
@@ -71,13 +70,14 @@
             cost. Appointments are ONLY available in one week increments and refresh every Friday at 11:59PM. 
         </p>
 
+         <!--to-do: make time selection prettier  -->
         <label for="time-from">From:</label>
-        <input type="time" id="time-from" name="time-from" class="timepicker">
+        <input type="time" id="time-from" name="time-from">
         
         <label for="time-to">To:</label>
-        <input type="time" id="time-to" name="time-to" class="timepicker">
+        <input type="time" id="time-to" name="time-to">
 
-        <!--database links? use JS for reactive -->
+        <!--to-do: database?, select time functionality  -->
         <table id="times">
             <tr>
                 <th>MON<br>22</th>
@@ -103,7 +103,7 @@
             <tr>
                 <td>9:50AM</td>
                 <td>9:50AM</td>
-                <td>9:50AM</td>
+                <td class="select">9:50AM</td>
                 <td>9:50AM</td>
                 <td>9:50AM</td>
             </tr>
@@ -127,7 +127,6 @@
         </button>
     </div>
 
-    <script src="//cdnjs.cloudflare.com/ajax/libs/timepicker/1.3.5/jquery.timepicker.min.js"></script>
 </body>
 
 </html>
