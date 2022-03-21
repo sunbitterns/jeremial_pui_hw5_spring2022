@@ -191,6 +191,7 @@ header .hero-image img:hover {
 }
 
 .appt-container h1 {
+
     font-size: 38px;
     margin-bottom: 32px;
 }
@@ -205,6 +206,10 @@ header .hero-image img:hover {
     color:black;
     border-bottom: 1px solid #BB0000;
     text-decoration: none;
+}
+
+.appt-container h3 {
+    margin-bottom: 10px;
 }
 
 .appt-container i {
@@ -257,6 +262,47 @@ button a {
     background-color:#E73F5B;
     color: white;
 }
+
+.question {
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.red {
+    color: red;
+}
+
+.option {
+    color: red;
+
+}
+
+.custom-select {
+    position: relative;
+    font-family: Arial;
+}
+
+select {
+    -webkit-appearance: none !important;
+    -moz-appearance: none !important;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAUCAMAAACtdX32AAAAdVBMVEUAAAD///8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAhMdQaAAAAJ3RSTlMAAAECAwQGBwsOFBwkJTg5RUZ4eYCHkJefpaytrsXGy8zW3+Do8vNn0bsyAAAAYElEQVR42tXROwJDQAAA0Ymw1p9kiT+L5P5HVEi3qJn2lcPjtIuzUIJ/rhIGy762N3XaThqMN1ZPALsZPEzG1x8LrFL77DHBnEMxBewz0fJ6LyFHTPL7xhwzWYrJ9z22AqmQBV757MHfAAAAAElFTkSuQmCC);
+    background-position: 100%;
+    background-repeat: no-repeat;
+    border: 1px solid #ccc;
+    padding: 0.5rem;
+    border-radius: 0;
+}
+
+.custom-select {
+    width: 300px;
+    height: 40px;
+    padding-left: 20px;
+    border-color: #BB0000;
+    font-size: 14px;
+}
+
+
 
 /* CALENDAR */
 
